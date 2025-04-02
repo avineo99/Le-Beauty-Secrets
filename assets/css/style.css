@@ -294,11 +294,7 @@ top: 0;
 left: 0;
 height: 100%;
 width: 100%;
-background: linear-gradient(
-    180deg,
-    rgba(177, 127, 55, 0.2) 0%,
-    rgba(0, 0, 0, 0.7) 100%
-  );
+background: linear-gradient(to bottom, rgba(177,127,55,0.2) 0%,rgba(0,0,0,0.6) 100%);
 }
 .marge-sec, .marge-sec-2, .follow-sec{
     background-image: url(../images/section-bg.png);
