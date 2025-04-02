@@ -198,6 +198,11 @@ a{
     border-color: #fff;
     color: #fff;
 }
+.btn-light:hover{
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+}
 
 .btn-success{
     color: #fff;
@@ -332,7 +337,7 @@ background: linear-gradient(to bottom, rgba(177,127,55,0.2) 0%,rgba(0,0,0,0.6) 1
     margin-top: 9px;
     display: inline-block;
     width: 100%;
-    
+
 }
 .journey-img {
     max-width: 750px;
@@ -370,6 +375,7 @@ background: linear-gradient(to bottom, rgba(177,127,55,0.2) 0%,rgba(0,0,0,0.6) 1
     height: 24px;
     width: 24px;
     display: inline-block;
+    opacity: 1;
 }
 .testimonial-sec .slick-next:before{
     background-image: url(../images/next-arrow.svg);
