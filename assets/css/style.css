@@ -52,7 +52,7 @@ a{
 }
 
 
-.bg-warning{
+/* .bg-warning{
     background: linear-gradient(
         to right,
         #C69427 0%,
@@ -61,8 +61,10 @@ a{
         #F7B64A 77%,
         #C69427 100%
       ) !important;
+} */
+.bg-warning {
+    background: linear-gradient(        to right,        #C69427 -5%,        #FFE8A1 3%,        #DCAD45 53%,        #F7B64A 60%,        #FFE8A1 100%   ) !important;
 }
-
 
 .text-black-50{
     color: #000 !important;
@@ -203,9 +205,15 @@ a{
     border-color: #009900;
 }
 
-
+a.book-btn-2 {
+    padding: 17px 108px;
+}
 /* pages css start */
-
+header{
+        box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.25);
+        z-index: 9;
+        position: relative;
+}
 .navbar-brand{
     display: inline-block;
     max-width: 1024px;
@@ -478,6 +486,9 @@ background: linear-gradient(
     .fs-20 {
         font-size: 15px;
     }
+    a.book-btn-2 {
+        padding: 15px 70px;
+    }
 }
 
 @media(max-width:991px){
@@ -568,6 +579,9 @@ background: linear-gradient(
     .btn {
         padding: 10px 20px;
         font-size: 14px;
+    }
+    a.book-btn-2 {
+        padding: 15px 60px;
     }
 }
 
